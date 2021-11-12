@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=Forms Demo">
-    <title>Document</title>
+    <title>Form Demo</title>
 </head>
 <body>
     <h1>Forms Demo</h1>
@@ -12,17 +12,26 @@
     <form action="/tacos">
         <button type="button">Do not submit the form</button>
         <p>
+
             <label for="username">Enter a Username:</label>
             <input type="text" name="username" id="username" placeholder="username">
         </p>
+
         <p>
             <label for="password">Enter a Password:</label>
             <input type="password" name="password" id="password" placeholder="password">
         </p>
+
         <p>
             <label for="color">Enter a color</label>
-            <input type="color" name="color" id="color">
+            <input type="color" name="color" id="color" placeholder="number" min=1 max=100 step=2>
         </p>
+
+        <p>
+            <label for="num">Enter a number</label>
+            <input type="number" name="number" id="num">
+        </p>
+        
         <button disabled="disabled">Disabled</button>
         <button type="reset">Reset</button>
         <button type="submit">Submit</button>
@@ -62,9 +71,8 @@
             <input type="radio" name="size" id="s" value="s">
             <label for="m">M</label>
             <input type="radio" name="size" id="m" value="m">
-            <button>Submit</button>
         </p>
-
+        
         <p>
             <label for="meal">Please Select an Entree</label>
             <select name="meal" id="meal">
@@ -74,6 +82,18 @@
                 <option value="steak" selected>Steak</option>
             </select>
         </p>
+        
+        <p>
+            <label for="chesse">Amout of cheese</label>
+            <input type="range" name="cheese_level" id="chesse" min=1 max=100 value=10 step=5>
+        </p>
+
+        <p>
+            <label for="requests">Any special request?</label>
+            <textarea name="requests" id="requests" cols="30" rows="10" placeholder="Type">
+            </textarea>
+        </p>
+        <button>Submit</button>
     </form>
 </body>
 </html>  
