@@ -50,5 +50,30 @@
         <input type="text" name="search_query" id="yt" placeholder="Serch">
         <button>Search YouTube</button>
     </form>
+
+    <h2>More Inputs</h2>
+    <form action="/birds">
+        <input type="checkbox" name="agrre_tos" id="agree" checked>
+        <label for="agree">I agree to everithing</label>
+        <p>
+            <label for="xs">XS</label>
+            <input type="radio" name="size" id="xs" value="xs">
+            <label for="s">S</label>
+            <input type="radio" name="size" id="s" value="s">
+            <label for="m">M</label>
+            <input type="radio" name="size" id="m" value="m">
+            <button>Submit</button>
+        </p>
+
+        <p>
+            <label for="meal">Please Select an Entree</label>
+            <select name="meal" id="meal">
+                <option value="">--Please select--</option>
+                <option value="fish">Fish</option>
+                <option value="veg">Vegetarian</option>
+                <option value="steak" selected>Steak</option>
+            </select>
+        </p>
+    </form>
 </body>
 </html>  
