@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=Forms Demo">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Forms Demo</h1>
+
+    <form action="/tacos">
+        <button type="button">Do not submit the form</button>
+        <p>
+            <label for="username">Enter a Username:</label>
+            <input type="text" name="username" id="username" placeholder="username">
+        </p>
+        <p>
+            <label for="password">Enter a Password:</label>
+            <input type="password" name="password" id="password" placeholder="password">
+        </p>
+        <p>
+            <label for="color">Enter a color</label>
+            <input type="color" name="color" id="color">
+        </p>
+        <button disabled="disabled">Disabled</button>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+    <hr>
+
+    <h2>Hijacking Searches</h2>
+    <h3>Search Reddit</h3>
+    <form action="https://www.reddit.com/search">
+        <label for="serch">Search:</label>
+        <input type="text" name="q" id="search" placeholder="Serch">
+        <button>Search Reddit</button>
+    </form>
+    
+    <h3>Search Google</h3>
+    <form action="https://www.google.com/search">
+        <label for="google">Search:</label>
+        <input type="text" name="q" id="google" placeholder="Serch">
+        <button>Search Google</button>
+    </form>
+
+    <h3>Search YouTube</h3>
+    <form action="https://www.youtube.com/results">
+        <label for="yt">Search:</label>
+        <input type="text" name="search_query" id="yt" placeholder="Serch">
+        <button>Search YouTube</button>
+    </form>
+</body>
+</html>  
