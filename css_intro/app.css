@@ -1,14 +1,19 @@
-h2 {
-    color: rgb(80, 17, 126);
-    background-color: magenta;
+h1  {
+    text-align: center;
+    font-weight: normal;
+    text-decoration: rgb(219, 167, 70) underline wavy;
+    letter-spacing: 15px;
+    font-size: 80px;
+    /* font-family: 'Segoe UI', Arial; */
+    font-family: monospace;
+    text-decoration: plum underline wavy;
 }
 
 p {
-    color: olive;
-    background: orange;
+    text-align: justify;
+    line-height: 1.5;
 }
 
-button {
-    color: magenta;
-    background-color: cyan;
-}
+a {
+    text-decoration: none;
+} 
