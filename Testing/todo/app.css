@@ -1,0 +1,12 @@
+.done {
+    text-decoration-line: line-through;
+    color: rgb(119, 108, 108);
+}
+
+li {
+    list-style: none
+}
+
+label {
+    display: block;
+}
